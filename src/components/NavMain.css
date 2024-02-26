@@ -1,0 +1,36 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 40px 80px;
+    color: #6eccaf;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navChild{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navChild ul{
+    display: flex;
+    padding: 24px;
+}
+
+.navChild a{
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #6eccaf;
+    border-radius: 0.375rem;
+    color: #344D67;
+    font-size: 16px;
+}

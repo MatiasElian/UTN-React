@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body{
+  background-image: url("./img/rickymorty.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.divMain h1{
+  text-align: center;
+  display: inline;
+  color: #344d67;
+  margin: 0px 12px 8px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.divMain h2{
+  color: #344d67;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.divMain p{
+  text-align: center;
+  padding: 8px;
+  color: #344d67;
+  margin-bottom: 16px;
+  width: 100%;
+  font-weight: 500;
+}
+
+.navMain{
+  display: flex;
+  justify-content: center;
+}
+
+.navMain a{
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}

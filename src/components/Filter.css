@@ -1,0 +1,56 @@
+.sectionFilter{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 12px;
+    padding: 48px 0px;
+}
+.divMainFilter{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.divMainFilter h2{
+    color: #253649;
+}
+
+.filterContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+}
+
+.filter{
+    padding: 8px 48px;
+    margin-bottom: 2px;
+    background-color: #344d67;
+    color: #6eccaf;
+    border-radius: 8px;
+}
+
+.filter Input{
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #b1f0dc;
+    background-image: url(../img/select.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    width: 2rem;
+    height: 16px;
+    margin-left: -2.5em;
+    border-radius: 2em;
+    transition: background-color 0.3s ease;
+    transition: ease-in-out 0.3s;
+
+}
+
+.filter input:checked{
+    background-color: #223142;
+    background-position: right center;
+    transition: ease-in-out 0.3s;
+
+}
